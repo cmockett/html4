@@ -67,12 +67,48 @@ body{
 }
 .central-body h5{
 	margin:20px 20px;
+	padding:5px 0px;
 	border-bottom:1px solid grey;
 }
 .main-paragraphs{
 	font-size:12px;
-	margin:0px 35px;
+	margin:10px 35px;
+	line-height:150%;
 }
-.table{
-	border:1px solid black;
+.red-text{
+	color:#d35400;
+}
+.italicized{
+	font-style: italic;
+}
+td, th{
+	border:1px solid grey;
+	padding:6px 10px;
+}
+th{
+	background-color: #bdc3c7;
+}
+table {
+	font-size:12px;
+	margin:0px 18px;
+	border-spacing: 0px;
+	border-collapse:collapse;
+}
+[class *='table-button']{
+	height:23px;
+	line-height:25px;
+	background-color:#3498db;
+	text-align:center;
+	margin:0px 2px;
+}
+[class *='table-button'] a{
+	color:white;
+	text-decoration: none;
+	font-size:.9em;
+}
+.table-button1, .table-button2{
+	width:60px;
+}
+.table-button3{
+	width:68px;
 }
