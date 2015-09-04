@@ -47,12 +47,22 @@ body{
 .side-links{
 	background-color:#ecf0f1;
 	margin:0px;
-	height:200px;
-	width:200px; 
+	height:172px;
+	width:160px; 
 	display:inline-block;
 	position:relative;
 	bottom:2000px;
-	left:520px;
+	left:510px;
+	border-bottom:3px solid black;
+	padding:5px 0px 20px 10px;
+	font-size:12px;
+	line-height:150%;
+}
+.side-links a {
+	text-decoration: none;
+	color:#7f8c8d;
+	padding-left:10px;
+
 }
 .central-body{
 	/*margin:0px 0px 0px 0px;*/
@@ -111,4 +121,80 @@ table {
 }
 .table-button3{
 	width:68px;
+}
+.js-example{
+	margin:auto;
+	font-family:Courier;
+	font-size:12px;
+	height:82px;
+	width:92%;
+	background-color: #bdc3c7;
+}
+.js-example p{
+	margin:0px 34px;
+	padding:20px 0px;
+}
+.placeholder-image{
+	margin:auto;
+	text-align:center;
+}
+.main-paragraphs li{
+	margin:0px 0px 10px -35px;
+}
+.timestamp {
+	margin:40px 0px 40px 20px;
+	color:#95a5a6;
+	font-size:12px;
+}
+.central-body h3{
+	margin:20px 20px;
+}
+.input-area div p{
+	display:inline-block;
+	line-height:initial;
+	font-size:12px;
+	margin:0px 0px 0px 50px;
+	text-align:right;
+	padding-top:8px;
+}
+.input-area input{
+	float:right;
+	width:66%;
+	margin-right:35px;
+	line-height:200%;
+}
+.input-area div{
+	margin:-1px 0px;
+}
+.input1{
+	padding-left:43px;
+}
+.input3 {
+	padding-left:32px;
+}
+.comment-area {
+	text-align:center;
+}
+.comment-area textarea{
+	width:450px;
+	height:124px;
+}
+.comment-lines {
+	width:400px;
+	background-color: grey
+	border:1px solid grey;
+}
+.submit-button {
+	width:450px;
+	height:32px;
+	background-color: #c0392b;
+	text-align:center;
+	line-height:;
+	margin:25px;
+	line-height:32px;
+}
+.submit-button a{
+	color:white;
+	text-decoration: none;
+	font-size:11px;
 }
